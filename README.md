@@ -1,5 +1,5 @@
 # One_Legged_Hopping_Robot
-Codes for simulating a one-legged hopping robot in MATLAB. To simulate the model, The following steps need to be carried out to run the simulation - 
+Code for simulating a one-legged hopping robot in MATLAB. To simulate the model, The following steps need to be carried out to run the simulation - 
 
 1.) Put both files ‘main_code.m’ and ‘draw.m’ in the same folder.
 
