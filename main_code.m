@@ -116,15 +116,15 @@ ylabel('Metres(s)');
 legend('Height');
 
 % Animation of the hopping robot can be played by uncommenting the following part of the code
-% v=VideoWriter('vid1.avi');
-% open(v);
-% figure(5)
-% for k=1:3:length(z)
-%     draw(z(k,:),dim,h);
-%     pause(0.01);
-%     frame=getframe(gcf);
-%     writeVideo(v,frame);
-% end
-% close(v);
+ v=VideoWriter('vid1.avi');
+ open(v);
+ figure(5)
+ for k=1:3:length(z)
+     draw(z(k,:),dim,h);
+     pause(0.01);
+     frame=getframe(gcf);
+     writeVideo(v,frame);
+ end
+ close(v);
 
 end
